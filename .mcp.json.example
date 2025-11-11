@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "wordpress": {
+      "command": "node",
+      "args": [
+        "/path/to/wordpress-mcp-server/dist/index.js"
+      ],
+      "env": {
+        "WORDPRESS_URL": "https://your-wordpress-site.com",
+        "WORDPRESS_USERNAME": "your-email@example.com",
+        "WORDPRESS_APP_PASSWORD": "xxxx xxxx xxxx xxxx xxxx xxxx"
+      }
+    }
+  }
+}

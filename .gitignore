@@ -1,0 +1,37 @@
+# Credentials & Sensitive Data
+.mcp.json
+.env
+.env.local
+.env.*.local
+
+# IDE & System
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node & Package Manager
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Build & Dist
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# Local Development
+.claude/settings.local.json
+
+# OS
+Thumbs.db
+
+# Editor backups
+*.bak
+*.tmp
